@@ -1,22 +1,52 @@
-h1 {
-  font-size: 100px;
-  margin: 0;
-}
-
-
-  #grandtitre {
+body {
     background-image:url(car.jpg);
     display: flex;
     align-items: center;
     height: 100vh;
     flex-direction: column;
+}
+
+h1 {
+  font-size: 100px;
+  margin: 0;
+  border-top: 1px solid #FFFFFF;
+}
+
+  #grandtitre {
     font-family:"Bradley Hand Bold";
     color:#FFFFFF;
-    border-top: 1px solid #FFFFFF;
+    padding-top: 5px;
+    padding-bottom: 10px;
     border-bottom: 1px solid #FFFFFF;
   }
 
 p {
     font-size: 40px;
-    margin : 0;
+    text-align: center;
+  margin :0;
+}
+
+#menu {
+  color : white;
+  border : 1px solid white;
+  border-top : none;
+  align-items: left;
+  flex-direction: row;
+  background-color : #D6D6D6;
+  opacity: 0.6;
+}
+ul {
+  align-items: left;
+  flex-direction: row;
+  display : flex;
+  font-size : 25px;
+  font-weight : bold;
+  margin : 0;
+  padding: 0;
+}
+li {
+  list-style:none;
+  margin : 5px 30px 5px 30px;
+  padding : 0;
+  color : #000000;
 }
