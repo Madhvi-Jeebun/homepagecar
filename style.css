@@ -1,8 +1,6 @@
 h1 {
-  color:#FFFFFF;
-  font-size: 80px;
-  font-family:"Bradley Hand Bold";
-  margin-bottom: : 0;
+  font-size: 100px;
+  margin: 0;
 }
 
 
@@ -10,14 +8,15 @@ h1 {
     background-image:url(car.jpg);
     display: flex;
     align-items: center;
-    justify-content: center;
     height: 100vh;
     flex-direction: column;
-
+    font-family:"Bradley Hand Bold";
+    color:#FFFFFF;
+    border-top: 1px solid #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
   }
 
-p{
-    font-size: 20px;
-    color:#FFFFFF;
-
+p {
+    font-size: 40px;
+    margin : 0;
 }
