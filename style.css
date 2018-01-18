@@ -1,10 +1,23 @@
-p{
-  font-size: 20px;
-  color:red;
-  background-color: black;
-}
 body{
 
   background-image:url(car.jpg);
+}
 
+h1 {
+  color:#FFFFFF;
+  font-size: 80px;
+  font-family:Bradley Hand Bold;
+  text-shadow: center;
+}
+#grandtitre {
+    display : flex;
+    justify-content: center;
+  }
+
+
+p{
+    font-size: 20px;
+    color:#FFFFFF;
+    background-color: black;
+    text-align: center;
 }
